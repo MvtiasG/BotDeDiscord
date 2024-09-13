@@ -1,0 +1,18 @@
+{
+  "name": "BotSanciones",
+  "version": "1.0.0",
+  "description": "Bot de sanciones para discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --trace-warnings index.js"
+  },
+  "author": "MvtiasG",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.3.1",
+    "punycode": "^2.3.1"
+  }
+}
